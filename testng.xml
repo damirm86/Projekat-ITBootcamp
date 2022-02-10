@@ -1,0 +1,49 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Test Automation IT Bootcamp" verbose="1">
+
+    <test name="Test Home Page">
+        <classes>
+            <class name="tests.TestHomePage"/>
+        </classes>
+    </test>
+
+    <test name="Test Page Store Menu">
+        <classes>
+            <class name="tests.TestPageStoreMenu"/>
+        </classes>
+    </test>
+
+    <test name="Test Header Options">
+        <classes>
+            <class name="tests.TestHeaderOptions"/>
+        </classes>
+    </test>
+
+
+    <test name="Test Register">
+        <classes>
+            <class name="tests.TestRegisterNewAccount"/>
+        </classes>
+    </test>
+
+    <test name="Test sign in">
+        <classes>
+            <class name="tests.TestSignIn"/>
+        </classes>
+    </test>
+
+    <test name="Test Shopping Cart">
+        <classes>
+            <class name="tests.TestShoppingCart"/>
+        </classes>
+    </test>
+
+    <test name="Test Edit User Data">
+        <classes>
+            <class name="tests.TestEditUserData"/>
+        </classes>
+    </test>
+
+
+</suite>
